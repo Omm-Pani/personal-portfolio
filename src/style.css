@@ -598,7 +598,6 @@ main {
 .service-item {
   position: relative;
   background: var(--border-gradient-onyx);
-  /* padding: 20px; */
   border-radius: 14px;
   box-shadow: var(--shadow-2);
   z-index: 1;
@@ -1522,6 +1521,11 @@ textarea.form-input::-webkit-resizer {
   }
 }
 
+@media (max-width: 580px) {
+  .service-item a {
+    padding: 20px;
+  }
+}
 /**
  * responsive larger than 580px screen
  */
