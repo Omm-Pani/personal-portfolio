@@ -20,16 +20,6 @@ function Navbar({ activePage, handleNavClick }) {
             Blogs
           </button>
         </li>
-        <li className="navbar-item">
-          <button
-            className={`navbar-link ${
-              activePage === "contact" ? "active" : ""
-            }`}
-            onClick={() => handleNavClick("contact")}
-          >
-            Contact
-          </button>
-        </li>
       </ul>
     </nav>
   );

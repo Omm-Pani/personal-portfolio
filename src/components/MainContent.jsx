@@ -16,7 +16,6 @@ function MainContent() {
       <Navbar activePage={activePage} handleNavClick={handleNavClick} />
       {activePage === "about" && <About />}
       {activePage === "blogs" && <Blogs />}
-      {activePage === "contact" && <Contact />}
     </div>
   );
 }
