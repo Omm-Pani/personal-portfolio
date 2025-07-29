@@ -22,8 +22,7 @@ function Blogs() {
                 <div className="blog-meta">
                   <p className="blog-category">AI</p>
                   <p className="blog-category">LLM</p>
-                  <span className="dot"></span>
-                  <time dateTime="2024-07-12">July 12, 2024</time>
+                  {/* <span className="dot"></span> */}
                 </div>
                 <h3 className="h3 blog-item-title">
                   How I Built My Own LLM From Scratch
@@ -34,12 +33,12 @@ function Blogs() {
               </div>
             </a>
           </li>
-          {/* 
+
           <li className="blog-post-item">
-            <a href="#">
+            <a href="https://omm-pani-blogs.hashnode.dev/react-under-the-hood-of-usestate">
               <figure className="blog-banner-box">
                 <img
-                  src="/assets/images/blog.png"
+                  src="/assets/images/useState_blog.png"
                   alt="Another Blog Post"
                   loading="lazy"
                 />
@@ -47,16 +46,26 @@ function Blogs() {
               <div className="blog-content">
                 <div className="blog-meta">
                   <p className="blog-category">Web Dev</p>
-                  <span className="dot"></span>
-                  <time dateTime="2024-07-20">July 20, 2024</time>
+                  <p className="blog-category">React</p>
+                  {/* <span className="dot"></span> */}
                 </div>
-                <h3 className="h3 blog-item-title">Another Blog Post</h3>
-                <p className="blog-text">
-                  This is a placeholder for another blog post.
-                </p>
+                <h3 className="h3 blog-item-title">
+                  React: UseState Under the Hood
+                </h3>
+                <div className="blog-text">
+                  <strong>
+                    Did you know React doesn't store state in plain variables?
+                  </strong>
+                  <p>
+                    Under the hood, it uses linked lists, update queues, and
+                    slot-based lookups — even your humble{" "}
+                    <code>useState(0)</code> kicks off a mini linked list behind
+                    the scenes.
+                  </p>
+                </div>
               </div>
             </a>
-          </li> */}
+          </li>
         </ul>
       </section>
     </article>

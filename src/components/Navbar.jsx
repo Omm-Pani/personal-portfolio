@@ -1,5 +1,3 @@
-import React from "react";
-
 function Navbar({ activePage, handleNavClick }) {
   return (
     <nav className="navbar">
