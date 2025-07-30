@@ -39,7 +39,7 @@ function Blogs() {
               <figure className="blog-banner-box">
                 <img
                   src="/assets/images/useState_blog.png"
-                  alt="Another Blog Post"
+                  alt="UseState Blog"
                   loading="lazy"
                 />
               </figure>
@@ -62,6 +62,33 @@ function Blogs() {
                     <code>useState(0)</code> kicks off a mini linked list behind
                     the scenes.
                   </p>
+                </div>
+              </div>
+            </a>
+          </li>
+
+          <li className="blog-post-item">
+            <a href="https://omm-pani-blogs.hashnode.dev/react-under-the-hood-of-usestate">
+              <figure className="blog-banner-box">
+                <img
+                  src="/assets/images/HTTP_blog.png"
+                  alt="HTTP Blog"
+                  loading="lazy"
+                />
+              </figure>
+              <div className="blog-content">
+                <div className="blog-meta">
+                  <p className="blog-category">HTTP Networking</p>
+
+                  {/* <span className="dot"></span> */}
+                </div>
+                <h3 className="h3 blog-item-title">
+                  Building an HTTP Server from scratch
+                </h3>
+                <div className="blog-text">
+                  You've used Express.js plenty of times. Spin up a server, add
+                  a few routes, call it a day. But ever wondered — what's really
+                  happening under the hood?
                 </div>
               </div>
             </a>
