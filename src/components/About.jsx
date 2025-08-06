@@ -59,7 +59,11 @@ function About() {
           </li>
 
           <li className="service-item">
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://omm-pani-blogs.hashnode.dev/how-i-built-my-own-llm-from-scratch-a-students-deep-dive-into-ai"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <div className="service-content">
                 <div className="service-content-header">
                   <img
@@ -213,7 +217,11 @@ function About() {
           </li>
 
           <li className="service-item">
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://omm-pani-blogs.hashnode.dev/building-an-http-server-from-scratch"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <div className="service-content">
                 <div className="service-content-header">
                   <img

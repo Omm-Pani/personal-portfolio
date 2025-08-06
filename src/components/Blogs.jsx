@@ -68,7 +68,7 @@ function Blogs() {
           </li>
 
           <li className="blog-post-item">
-            <a href="https://omm-pani-blogs.hashnode.dev/react-under-the-hood-of-usestate">
+            <a href="https://omm-pani-blogs.hashnode.dev/building-an-http-server-from-scratch">
               <figure className="blog-banner-box">
                 <img
                   src="/assets/images/HTTP_blog.png"
